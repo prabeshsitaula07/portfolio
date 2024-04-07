@@ -25,12 +25,6 @@ const aboutdetail = [
     },
     {
         id: 5,
-        title: "PROJECTS",
-        paragraph: "To view my project, visit my <a href='https://github.com/prabeshsitaula07' target='_blank'>GITHUB</a> profile and navigate to the repository containing the project.From there, you can browse the project's files, view its commit history, and access any associated documentation.",
-        icon: "fa-arrows-alt-v"
-    },
-    {
-        id: 6,
         title: "OTHER",
         paragraph: "I am someone who values physical health and staying active, which is why I enjoy playing sports like football, cricket, chess and volleyball. Gaming is another hobby of mine, as it allows me to explore new experiences and challenge myself mentally. Pursuing these hobbies helps me maintain a healthy work-life balance.",
         icon: "fa-arrows-alt-v"

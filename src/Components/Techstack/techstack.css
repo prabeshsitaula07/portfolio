@@ -1,0 +1,32 @@
+.tech-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    gap: 30px;
+}
+
+.icon-logo{
+    border: 1px solid#cd5ff8;
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.icon-logo:hover{
+    box-shadow: 0 3px 5px white;
+}
+
+.tech-logo img{
+    padding: 20px;
+    height: 120px;
+}
+.tech-stack{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

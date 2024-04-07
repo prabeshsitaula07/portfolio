@@ -12,6 +12,10 @@
 }
 
 
+.footer{
+    background: #0a0416;
+    padding-bottom: 10px;
+}
 
 .login{
     display: flex;
@@ -54,7 +58,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row-reverse;
-    margin-bottom: 20px;
 }
 
 .contact-flex h4 {

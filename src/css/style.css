@@ -10,6 +10,24 @@
     --box-color: rgb(51, 51, 51);
     --shadow-color-: rgb(201, 201, 201);
 }
+::-webkit-scrollbar {
+    width: 6px; 
+    background: #1c0426; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #cd5ff8; /* Thumb color */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ac38d1; /* Thumb color on hover */
+  }
+  
+  
 
 * {
     box-sizing: border-box;
@@ -115,8 +133,8 @@ h2 {
 }
 
 .boxes .container {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -129,7 +147,8 @@ h2 {
     padding: 15px 20px;
     box-shadow: 0 3px 5px var(--navbar-box-shadow);
     text-align: justify;
-
+    min-width: 300px;
+    max-width: 300px;
 }
 
 .box:hover {
@@ -169,7 +188,6 @@ span {
 
 @media(max-width: 670px) {
     .boxes .container {
-        display: block;
         text-align: center;
     }
 

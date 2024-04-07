@@ -1,0 +1,35 @@
+const projectdetails = [
+    {
+        id: 1,
+        link: "https://github.com/prabeshsitaula07/Restaurant-website",
+        image: "resturant.png"
+    },
+    {
+        id: 2,
+        link: "https://nepalfurniture07.000webhostapp.com/",
+        image: "furniture.png"
+    },
+    {
+        id: 3,
+        link: "https://myorganicchemistry.com.np",
+        image: "chemistry.png"
+    },
+    {
+        id: 4,
+        link: "https://github.com/prabeshsitaula07/myPlant",
+        image: "myPlant.png"
+    },
+    {
+        id: 5,
+        link: "https://github.com/prabeshsitaula07/",
+        image: "profile.png"
+    },
+    {
+        id: 6,
+        link: "https://github.com/prabeshsitaula07/LIBRARY-MGMT-VIA-PHP",
+        image: "librarymgmtviaphp.png"
+    }
+
+]
+
+export default projectdetails

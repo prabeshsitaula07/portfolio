@@ -2,7 +2,6 @@ import React from 'react';
 import '../../css/style.css';
 import AboutContainer from './AboutContainer';
 import aboutdetails from './Aboutdetails'
-
 function nbox(val) {
     return (
         <AboutContainer

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../css/style.css';
 import home from './home.png'
+// import home_photo from './home_photo.png'
 
 export default function Header() {
   return (

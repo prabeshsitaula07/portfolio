@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <About/>
       <Techstack/>
-      <Project/>
+      <Project/> 
       <Contact/>
       <Footer/>
     </>

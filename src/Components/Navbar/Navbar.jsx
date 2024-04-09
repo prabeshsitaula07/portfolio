@@ -20,13 +20,11 @@ export default function Navbar() {
 
                     <ul className="nav" id="navl">
 
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#project">Project</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        {/* <li><a href="prabesh-sitaula-cv.html">CV</a></li> */}
-                        {/* <li><button id="theme-toggle" onClick={toggleTheme}>Switch Theme</button></li> */}
-
+                        <li><a href="#"><img src="navlinkicon/home.png" alt="home" /> Home</a></li>
+                        <li><a href="#about"><img src="navlinkicon/about.png" alt="about" /> About</a></li>
+                        <li><a href="#project"><img src="navlinkicon/project.png" alt="project" /> Project</a></li>
+                        <li><a href="#contact"><img src="navlinkicon/contact.png" alt="contact" /> Contact</a></li>
+                        
                     </ul>
                 </div>
             </nav>

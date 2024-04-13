@@ -7,6 +7,7 @@ export default function Techstack() {
     <h2 align="center" >Tech Stack</h2>
     <div className="tech-logo">
         <div className="icon-logo"><img src="iconlogo/python.png" alt="" /></div>
+        <div className="icon-logo"><img src="iconlogo/c++.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/bootstrap.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/tailwind.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/github.png" alt="" /></div>
@@ -18,10 +19,10 @@ export default function Techstack() {
         <div className="icon-logo"><img src="iconlogo/react.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/vscode.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/seo.png" alt="" /></div>
-        <div className="icon-logo"><img src="iconlogo/excel.png" alt="" /></div>
+        <div className="icon-logo"><img src="iconlogo/php.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/django.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/mysql.png" alt="" /></div>
-        <div className="icon-logo"><img src="iconlogo/php.png" alt="" /></div>
+        <div className="icon-logo"><img src="iconlogo/excel.png" alt="" /></div>
     </div>
     </section>
     </>

@@ -8,6 +8,11 @@
     gap: 30px;
 }
 
+@media(max-width: 425px){
+    .tech-logo{
+        width: 90%;
+    }
+}
 .icon-logo{
     border: 1px solid#cd5ff8;
     border-radius: 20px;

@@ -28,6 +28,12 @@ const projectdetails = [
         id: 6,
         link: "https://github.com/prabeshsitaula07/LIBRARY-MGMT-VIA-PHP",
         image: "librarymgmtviaphp.png"
+    },
+
+    {
+        id: 7,
+        link: "https://danexsolution.com.np/",
+        image: "danex.png"
     }
 
 ]

@@ -32,7 +32,7 @@ const projectdetails = [
 
     {
         id: 7,
-        link: "https://danexsolution.com.np/",
+        link: "https://danexsolution.com/",
         image: "danex.png"
     }
 

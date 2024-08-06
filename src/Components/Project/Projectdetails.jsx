@@ -34,6 +34,12 @@ const projectdetails = [
         id: 7,
         link: "https://danexsolution.com/",
         image: "danex.png"
+    },
+
+    {
+        id: 8,
+        link: "https://danexsolution.com/",
+        image: "danexjobs.png"
     }
 
 ]

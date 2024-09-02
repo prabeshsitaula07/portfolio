@@ -1,24 +1,37 @@
 import React from 'react';
-import '../../css/style.css';
-import home from './home.png'
-// import home_photo from './home_photo.png'
+import './header.css';
+import home from './home.png';
+import Typewriter from 'typewriter-effect';
 
 export default function Header() {
   return (
     <>
-    <header className="header" id="head">
-        <div className="container" align="center">
-            <div>
-                <h1 align="center">PRABESH <span>SITAULA</span></h1>
-                <p align="center">Hello, my name is Prabesh Sitaula, and I'm excited to be here in the field of IT
-                    today. As a student, I am dedicated to learning and growing, and I look forward to making the most
-                    of the opportunities available to me. I have a positive attitude and am eager to work with all of
-                    you to achieve our academic and personal goals.</p>
+      <section className="home" id="home">
+        <div className="max-width">
+          <div className="home-content">
+            <div className="text-1">Hi there!</div>
+            <div className="text-2">
+              I'M <span className="voilet">PRABESH SITAULA</span>
             </div>
-            <img src={home} alt="prabesh_sitaula_web-developer"/>
-
+            <div className="text-3">
+              <span className="typing voilet">
+                <Typewriter
+                  options={{
+                    strings: ['React Developer', 'AI Enthusiast', 'ML Engineer To Be'],
+                    autoStart: true,
+                    loop: true,
+                    cursor: '|',
+                    delay: 75,
+                    deleteSpeed: 50,
+                    pauseFor: 2000,
+                  }}
+                />
+              </span>
+            </div>
+          </div>
+          <img src={home} alt="home" />
         </div>
-        </header>
+      </section>
     </>
-  )
+  );
 }

@@ -49,34 +49,50 @@ ul {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     /* For Safari */
-    background-color: rgba(184, 184, 184, 0.2);
+    background-color: rgba(127, 127, 127, 0.2);
     /* Semi-transparent background */
 }
 
 .logo a {
     text-decoration: none;
     color: var(--text-color);
-    font-size: x-large;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .navbar li a {
-    color: var(--text-color);
+    color: var(--sec-clr);
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
     display: flex;
     align-items: center;
     gap: 3px;
-
+    position: relative; /* Position relative for the hover effect */
+    padding-bottom: 5px; /* Add some padding to prevent jump when underline appears */
 }
+
+/* Hover effect: underline appears when hovering over the nav link */
+.navbar li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: var(--text-color); /* Color of the underline */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease; /* Animation for hover effect */
+}
+
+/* When hovering, expand the underline */
+.navbar li a:hover::after {
+    width: 100%; /* Full width on hover */
+}
+
 
 .navbar li a img {
     width: 30px;
-}
-
-.navbar li a:hover {
-    color: lightblue;
 }
 
 /*  */
@@ -88,10 +104,6 @@ ul {
 }
 
 /*  */
-
-.active {
-    color: lightblue;
-}
 
 .navbar .nav_container {
     display: flex;

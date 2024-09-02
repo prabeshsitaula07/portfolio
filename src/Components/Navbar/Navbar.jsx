@@ -3,10 +3,9 @@ import './navbar.css';
 import '../../css/button.css';
 
 export default function Navbar() {
-    // State to manage navbar background color
     const [isScrolled, setIsScrolled] = useState(false);
+    const [activeNav, setActiveNav] = useState('home'); // State for tracking the active nav link
 
-    // useEffect to handle scroll event
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 0) {
@@ -16,14 +15,16 @@ export default function Navbar() {
             }
         };
 
-        // Adding the scroll event listener
         window.addEventListener('scroll', handleScroll);
 
-        // Cleanup the event listener on component unmount
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+    const handleNavClick = (nav) => {
+        setActiveNav(nav);
+    };
 
     return (
         <>
@@ -37,10 +38,34 @@ export default function Navbar() {
                         <span className="bar"></span>
                     </label>
                     <ul className="nav" id="navl">
-                        <li><a href="#"><img src="navlinkicon/home.png" alt="home" /> Home</a></li>
-                        <li><a href="#about"><img src="navlinkicon/about.png" alt="about" /> About</a></li>
-                        <li><a href="#project"><img src="navlinkicon/project.png" alt="project" /> Project</a></li>
-                        <li><a href="#contact"><img src="navlinkicon/contact.png" alt="contact" /> Contact</a></li>
+                        <li>
+                            <a href="#" 
+                               className={activeNav === 'home' ? 'active' : ''}
+                               onClick={() => handleNavClick('home')}>
+                                <img src="navlinkicon/home.png" alt="home" /> Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" 
+                               className={activeNav === 'about' ? 'active' : ''}
+                               onClick={() => handleNavClick('about')}>
+                                <img src="navlinkicon/about.png" alt="about" /> About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#project" 
+                               className={activeNav === 'project' ? 'active' : ''}
+                               onClick={() => handleNavClick('project')}>
+                                <img src="navlinkicon/project.png" alt="project" /> Project
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact" 
+                               className={activeNav === 'contact' ? 'active' : ''}
+                               onClick={() => handleNavClick('contact')}>
+                                <img src="navlinkicon/contact.png" alt="contact" /> Contact
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

@@ -9,7 +9,7 @@ export default function Header() {
       <section className="home" id="home">
         <div className="max-width">
           <div className="home-content">
-            <div className="text-1">Hi there!</div>
+          <div className="text-1">Hi there! <span className="wave">👋🏻</span></div>
             <div className="text-2">
               I'M <span className="voilet">PRABESH SITAULA</span>
             </div>

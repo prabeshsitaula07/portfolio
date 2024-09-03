@@ -62,3 +62,29 @@
 img {
     width: 400px;
 }
+
+/* CSS for the text */
+.text-1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* CSS for the waving emoji */
+  .wave {
+    display: inline-block; /* Allows for rotation */
+    animation: wave 2s infinite; /* Apply animation */
+    transform-origin: 70% 70%; /* Adjust the pivot point */
+  }
+  
+  /* Keyframes for the waving animation */
+  @keyframes wave {
+    0% { transform: rotate(0deg); }    /* Start position */
+    10% { transform: rotate(14deg); }  /* Wave to the right */
+    20% { transform: rotate(-8deg); }  /* Wave to the left */
+    30% { transform: rotate(14deg); }  /* Wave to the right */
+    40% { transform: rotate(-4deg); }  /* Slight wave to the left */
+    50% { transform: rotate(10deg); }  /* Slight wave to the right */
+    60% { transform: rotate(0deg); }   /* Back to start position */
+    100% { transform: rotate(0deg); }  /* End position */
+  }
+  

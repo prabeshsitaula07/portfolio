@@ -68,10 +68,11 @@ export default function Navbar() {
                                 <img src="navlinkicon/contact.png" alt="contact" /> Contact
                             </a>
                         </li>
-                        {/* Add the Download CV option here */}
+                        <li>
                         <div className='line'>
-                        |
+
                         </div>
+                        </li>
                         <li>
                             <a href={resume} 
                                className="btn download-cv-btn" 

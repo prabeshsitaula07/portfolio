@@ -121,10 +121,11 @@ ul {
 .navbar ul li {
     margin-left: 20px;
 }
+
 .line{
-    font-size: 60px;
-    padding-left: 10px;
-    font-weight: lighter;
+    width: 1px;
+    height: 45px;
+    background-color: white;
 }
 
 @media(max-width: 725px) {

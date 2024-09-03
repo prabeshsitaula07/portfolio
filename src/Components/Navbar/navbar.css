@@ -122,6 +122,11 @@ ul {
 .navbar ul li {
     margin-left: 20px;
 }
+.line{
+    font-size: 60px;
+    padding-left: auto;
+    font-weight: lighter;
+}
 
 @media(max-width: 725px) {
     .nav {
@@ -130,7 +135,7 @@ ul {
     }
 }
 
-@media(max-width: 780px) {
+@media(max-width: 800px) {
     .navbar .nav {
         display: flex;
         flex-direction: column;
@@ -156,6 +161,9 @@ ul {
     .navbar .navbar-toggler {
         display: grid !important;
 
+    }
+    .line{
+        display: none;
     }
 }
 
@@ -214,3 +222,4 @@ ul {
 .download-cv-btn:hover {
     background-color: transparent;
 }
+

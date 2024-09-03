@@ -69,6 +69,9 @@ export default function Navbar() {
                             </a>
                         </li>
                         {/* Add the Download CV option here */}
+                        <div className='line'>
+                        |
+                        </div>
                         <li>
                             <a href={resume} 
                                className="btn download-cv-btn" 

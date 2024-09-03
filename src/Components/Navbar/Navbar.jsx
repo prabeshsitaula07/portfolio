@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import '../../css/button.css';
+// import resume from './PrabeshSitaulaResume.pdf'
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -66,6 +67,7 @@ export default function Navbar() {
                                 <img src="navlinkicon/contact.png" alt="contact" /> Contact
                             </a>
                         </li>
+                        {/* <input type="button" value='download resume'/> */}
                     </ul>
                 </div>
             </nav>

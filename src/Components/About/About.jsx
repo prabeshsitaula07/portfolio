@@ -16,9 +16,8 @@ export default function About() {
     return (
         <>
             <div className="section-box-h2" id="about">
-                <h2 style={{ textAlign: "center" }}>About Me</h2>
+                <h2 style={{ textAlign: "center" }}>Learn More <span className='violet'>About Me</span></h2>
                 <section className="boxes">
-
                     <div className="container">
                         {aboutdetails.map(nbox)}
                     </div>

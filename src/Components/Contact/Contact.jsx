@@ -5,7 +5,7 @@ export default function Contact() {
     <>
     <section className="contact" id="contact">
                 <div className="container">
-                    <h2 align="center">Contact me</h2>
+                    <h2 align="center"><span className='violet'>Contact</span> Me</h2>
                     <form action="/submit" method="post">
                         <div className="form-group">
                             <label htmlFor="name">Name</label>

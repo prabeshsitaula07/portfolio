@@ -64,7 +64,6 @@ ul {
     color: var(--sec-clr);
     text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
     display: flex;
     align-items: center;
     gap: 3px;

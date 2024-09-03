@@ -58,7 +58,7 @@ export default function Navbar() {
                             <a href="#project" 
                                className={`hanimation ${activeNav === 'contact' ? 'active' : ''}`}
                                onClick={() => handleNavClick('project')}>
-                                <img src="navlinkicon/project.png" alt="project" /> Project
+                                <img src="navlinkicon/project.png" alt="project" /> Projects
                             </a>
                         </li>
                         <li>

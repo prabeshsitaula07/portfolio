@@ -60,7 +60,7 @@ ul {
     font-weight: bold;
 }
 
-.navbar li a {
+.navbar li .hanimation {
     color: var(--sec-clr);
     text-decoration: none;
     font-size: 18px;
@@ -73,7 +73,7 @@ ul {
 }
 
 /* Hover effect: underline appears when hovering over the nav link */
-.navbar li a::after {
+.navbar li .hanimation::after {
     content: '';
     display: block;
     width: 0;
@@ -86,12 +86,12 @@ ul {
 }
 
 /* When hovering, expand the underline */
-.navbar li a:hover::after {
+.navbar li .hanimation:hover::after {
     width: 100%; /* Full width on hover */
 }
 
 
-.navbar li a img {
+.navbar li .hanimation img {
     width: 30px;
 }
 
@@ -116,6 +116,7 @@ ul {
 
 .navbar ul {
     display: flex;
+    align-items: center;
 }
 
 .navbar ul li {
@@ -198,4 +199,18 @@ ul {
 
 .input:checked~.navbar .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
+}
+
+/* navbar.css or button.css */
+.download-cv-btn {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: white;
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
+.download-cv-btn:hover {
+    background-color: transparent;
 }

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import '../../css/button.css';
-// import resume from './PrabeshSitaulaResume.pdf'
+// Ensure your resume is in the public folder, or provide the correct path if it is in src
+import resume from './PrabeshSitaulaResume.pdf'; 
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -41,33 +42,40 @@ export default function Navbar() {
                     <ul className="nav" id="navl">
                         <li>
                             <a href="#" 
-                               className={activeNav === 'home' ? 'active' : ''}
+                               className={`hanimation ${activeNav === 'contact' ? 'active' : ''}`}
                                onClick={() => handleNavClick('home')}>
                                 <img src="navlinkicon/home.png" alt="home" /> Home
                             </a>
                         </li>
                         <li>
                             <a href="#about" 
-                               className={activeNav === 'about' ? 'active' : ''}
+                               className={`hanimation ${activeNav === 'contact' ? 'active' : ''}`}
                                onClick={() => handleNavClick('about')}>
                                 <img src="navlinkicon/about.png" alt="about" /> About
                             </a>
                         </li>
                         <li>
                             <a href="#project" 
-                               className={activeNav === 'project' ? 'active' : ''}
+                               className={`hanimation ${activeNav === 'contact' ? 'active' : ''}`}
                                onClick={() => handleNavClick('project')}>
                                 <img src="navlinkicon/project.png" alt="project" /> Project
                             </a>
                         </li>
                         <li>
                             <a href="#contact" 
-                               className={activeNav === 'contact' ? 'active' : ''}
+                               className={`hanimation ${activeNav === 'contact' ? 'active' : ''}`}
                                onClick={() => handleNavClick('contact')}>
                                 <img src="navlinkicon/contact.png" alt="contact" /> Contact
                             </a>
                         </li>
-                        {/* <input type="button" value='download resume'/> */}
+                        {/* Add the Download CV option here */}
+                        <li>
+                            <a href={resume} 
+                               className="btn download-cv-btn" 
+                               download="PrabeshSitaulaResume.pdf">
+                                Download CV
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

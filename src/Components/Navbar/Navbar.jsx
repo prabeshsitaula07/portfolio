@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import '../../css/button.css';
 // Ensure your resume is in the public folder, or provide the correct path if it is in src
-import resume from './PrabeshSitaulaResume.pdf'; 
+import resume from './PrabeshSitaulaCV.pdf'; 
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -76,7 +76,7 @@ export default function Navbar() {
                         <li>
                             <a href={resume} 
                                className="btn download-cv-btn" 
-                               download="PrabeshSitaulaResume.pdf">
+                               download="PrabeshSitaulaCV.pdf">
                                 Download CV
                             </a>
                         </li>

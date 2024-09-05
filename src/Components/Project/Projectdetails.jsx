@@ -16,7 +16,7 @@ const projectdetails = [
     },
     {
         id: 4,
-        link: "https://github.com/prabeshsitaula07/myPlant",
+        link: "https://prabeshsitaula07.github.io/myPlant/",
         image: "myPlant.png"
     },
     {

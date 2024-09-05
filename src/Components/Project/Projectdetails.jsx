@@ -1,7 +1,7 @@
 const projectdetails = [
     {
         id: 1,
-        link: "https://github.com/prabeshsitaula07/Restaurant-website",
+        link: "https://prabeshsitaula07.github.io/Restaurant-website/",
         image: "resturant.png"
     },
     {

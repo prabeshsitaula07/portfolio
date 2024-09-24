@@ -1,0 +1,99 @@
+/* ContactUs.css */
+
+/* Notification styles */
+.notification {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .success {
+    background-color: #38a169; /* Green */
+  }
+  
+  .failure {
+    background-color: #e53e3e; /* Red */
+  }
+  
+  /* Title styles */
+  .contact-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  /* Form styles */
+  .contact-form {
+    max-width: 32rem; /* Approx 512px */
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 0.375rem; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* space between form elements */
+  }
+  
+  /* Label styles */
+  .form-label {
+    display: block;
+    font-size: 1rem; /* text-md */
+    font-weight: 600; /* font-semibold */
+    color: #8b5cf6; /* violet */
+    text-align: start;
+  }
+  
+  /* Input styles */
+  .form-input,
+  .form-textarea {
+    margin-top: 0.25rem;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.375rem; /* rounded-md */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #3b82f6; /* ring-blue-500 */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 247, 0.5); /* focus:ring-2 */
+  }
+  
+  /* Textarea specific styles */
+  .form-textarea {
+    resize: vertical; /* Allow vertical resize */
+  }
+  
+  /* Submit button styles */
+  .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3b82f6; /* bg-blue-500 */
+    color: white;
+    font-weight: 600; /* font-semibold */
+    border-radius: 0.375rem; /* rounded-md */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #2563eb; /* hover:bg-blue-600 */
+  }
+  
+  .submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 247, 0.5); /* focus:ring-2 */
+  }
+  

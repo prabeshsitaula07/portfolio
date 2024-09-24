@@ -70,7 +70,7 @@ export const ContactUs = () => {
         </div>
       )}
 
-      <h2 align="center" className='font-bold'><span className='violet'>Contact</span> Me</h2>
+      <h2 align="center" style={{ textAlign: "center", fontSize: "40px", fontWeight: "bold"}}><span className='violet'>Contact</span> Me</h2>
 
       <form
         ref={form}

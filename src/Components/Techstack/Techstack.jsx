@@ -4,7 +4,7 @@ export default function Techstack() {
   return (
     <>
     <section className="tech-stack">
-    <h2 align="center"><span>Tech Stack</span></h2>
+    <h2 align="center"  className='font-bold'><span>Tech Stack</span></h2>
     <div className="tech-logo">
         <div className="icon-logo"><img src="iconlogo/python.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/c++.png" alt="" /></div>

@@ -7,7 +7,7 @@ export default function About() {
     return (
         <>
             <div className="about" id="about">
-                <h2 style={{ textAlign: "center" }}><span className='violet'>About</span> Me</h2>
+                <h2 style={{ textAlign: "center" }}  className='font-bold'><span className='violet'>About</span> Me</h2>
                 <div className="about-section">
                     <div className="about-details">
                         <p>My name is Prabesh Sitaula, and I completed my high school graduation (+2) from the <span>National School of Sciences</span>.</p><br />

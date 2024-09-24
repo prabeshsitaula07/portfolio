@@ -19,7 +19,7 @@ export default function Project() {
     return (
         <>
             <section className="project" id="project">
-                <h2 align="center" style={{ textAlign: "center", fontSize: "40px", fontWeight: "bold"}} >Web <span className='violet'>Projects</span></h2>
+                <h2 align="center" style={{ textAlign: "center", fontSize: "40px !important", fontWeight: "bold"}} >Web <span className='violet'>Projects</span></h2>
                 <div className="projects">
                     {projectdetails.map(nproject)}
                 </div>

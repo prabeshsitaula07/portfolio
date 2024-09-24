@@ -1,5 +1,7 @@
 /* ContactUs.css */
-
+h2{
+  font-size: 3rem !important;
+}
 /* Notification styles */
 .notification {
     position: fixed;

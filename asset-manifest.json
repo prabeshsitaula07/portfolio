@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.32ee21fa.css",
-    "main.js": "/static/js/main.74c461f7.js",
+    "main.css": "/static/css/main.43a053fa.css",
+    "main.js": "/static/js/main.ed3bdc70.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/PrabeshSitaulaCV.pdf": "/static/media/PrabeshSitaulaCV.eaba20f88a1a42094ceb.pdf",
     "static/media/aboutimg.png": "/static/media/aboutimg.aee0f771fbfc1e7b8fa8.png",
     "static/media/home.png": "/static/media/home.20568217eaa2891f9eb8.png",
     "index.html": "/index.html",
-    "main.32ee21fa.css.map": "/static/css/main.32ee21fa.css.map",
-    "main.74c461f7.js.map": "/static/js/main.74c461f7.js.map",
+    "main.43a053fa.css.map": "/static/css/main.43a053fa.css.map",
+    "main.ed3bdc70.js.map": "/static/js/main.ed3bdc70.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32ee21fa.css",
-    "static/js/main.74c461f7.js"
+    "static/css/main.43a053fa.css",
+    "static/js/main.ed3bdc70.js"
   ]
 }

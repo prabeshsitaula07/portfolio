@@ -70,6 +70,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+h2{
+    font-size: 40px !important;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;

@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import projectdetails from './Projectdetails'
+import './project.css'
 
 
 import '../../css/style.css'

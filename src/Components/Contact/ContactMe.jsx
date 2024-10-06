@@ -70,6 +70,7 @@ export const ContactUs = () => {
         </div>
       )}
 
+<div className="c" id='contact'>
       <h2 className="contact-title">Contact <span>Me</span></h2>
 
       <form
@@ -123,6 +124,7 @@ export const ContactUs = () => {
           />
         </div>
       </form>
+      </div>
     </>
   );
 };

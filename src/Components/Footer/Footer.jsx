@@ -5,10 +5,10 @@ export default function Footer() {
         <>
             <footer className="footer">
                 <div className="login">
-                <a href="https://github.com/prabeshsitaula07" target="_blank"><img src="footer-icon/github.png" alt="github icon" /></a>
-                    <a href="https://www.linkedin.com/in/prabesh-sitaula/" target="_blank"><img src="footer-icon/linkedin.png" alt="linkedin icon" /></a>
-                    <a href="https://twitter.com/prabesh_sitaula" target="_blank"><img src="footer-icon/twitter.png" alt="twitter icon" /></a>
-                    <a href="https://www.instagram.com/prabesh.sitaula_07" target="_blank"><img src="footer-icon/instagram.png" alt="instagram icon" /></a>
+                <a href="https://github.com/prabeshsitaula07"><img src="footer-icon/github.png" alt="github icon" /></a>
+                    <a href="https://www.linkedin.com/in/prabesh-sitaula/"><img src="footer-icon/linkedin.png" alt="linkedin icon" /></a>
+                    <a href="https://twitter.com/prabesh_sitaula"><img src="footer-icon/twitter.png" alt="twitter icon" /></a>
+                    <a href="https://www.instagram.com/prabesh.sitaula_07"><img src="footer-icon/instagram.png" alt="instagram icon" /></a>
                 </div>
 
                 <div className="contact-flex">

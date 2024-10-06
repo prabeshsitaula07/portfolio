@@ -33,7 +33,7 @@
 
 
 .copy h4 {
-    font-family: math;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 14px;
 
@@ -48,7 +48,7 @@
 }
 
 .contact-detail h4 {
-    font-family: math;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 14px;
 }
@@ -61,7 +61,7 @@
 }
 
 .contact-flex h4 {
-    color: var(--navbar-color);
+    color: lightgray;
     margin: 0px;
 }
 

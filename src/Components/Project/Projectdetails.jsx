@@ -45,7 +45,7 @@ const projectdetails = [
     {
         id: 9,
         link: "https://www.greatnepalholidays.com/",
-        image: "danexjob.png"
+        image: "greatnepalholidays.png"
     }
 
 ]

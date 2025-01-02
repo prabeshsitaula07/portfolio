@@ -53,9 +53,11 @@ ul {
     /* Semi-transparent background */
 }
 
-.logo img {
-    height: 55px;
-    width: auto;
+.logo  {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .navbar li .hanimation {

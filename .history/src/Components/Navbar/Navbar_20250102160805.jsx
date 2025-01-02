@@ -34,7 +34,7 @@ export default function Navbar() {
             <input type="checkbox" id="toggle" className="input" />
             <nav className={`navbar ${isScrolled ? 'semi-transparent' : 'transparent'}`}>
                 <div className="nav_container">
-                    <div className="logo"><a href="#"><img src={navlogo} alt="" /></a></div>
+                    <div className="logo"><a href="#"><img src="" alt="" /></a></div>
                     <label htmlFor="toggle" className="navbar-toggler">
                         <span className="bar"></span>
                         <span className="bar"></span>

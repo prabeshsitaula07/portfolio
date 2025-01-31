@@ -38,7 +38,7 @@ const projectdetails = [
 
     {
         id: 10,
-        link: "https://prabeshsitaula07.github.io/gnfmun/",
+        link: "https://www.greatnepalholidays.com/",
         image: "gnfmun.png"
     }
 

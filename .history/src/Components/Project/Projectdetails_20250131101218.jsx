@@ -30,9 +30,14 @@ const projectdetails = [
         image: "librarymgmtviaphp.png"
     },
 
-
     {
         id: 9,
+        link: "https://www.greatnepalholidays.com/",
+        image: "greatnepalholidays.png"
+    },
+
+    {
+        id: 10,
         link: "https://www.greatnepalholidays.com/",
         image: "greatnepalholidays.png"
     }

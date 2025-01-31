@@ -31,21 +31,15 @@ const projectdetails = [
     },
 
     {
-        id: 7,
-        link: "https://danexsolution.com/",
-        image: "danex.png"
-    },
-
-    {
-        id: 8,
-        link: "https://danexsolution.com/",
-        image: "danexjob.png"
-    },
-
-    {
         id: 9,
         link: "https://www.greatnepalholidays.com/",
         image: "greatnepalholidays.png"
+    },
+
+    {
+        id: 10,
+        link: "https://www.greatnepalholidays.com/",
+        image: "great"
     }
 
 ]

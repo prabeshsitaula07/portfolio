@@ -20,10 +20,9 @@ export default function Techstack() {
         <div className="icon-logo"><img src="iconlogo/vscode.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/seo.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/php.png" alt="" /></div>
+        <div className="icon-logo"><img src="iconlogo/django.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/mysql.png" alt="" /></div>
         <div className="icon-logo"><img src="iconlogo/excel.png" alt="" /></div>
-        <div className="icon-logo"><img src="iconlogo/docker.png" alt="" /></div>
-        <div className="icon-logo"><img src="iconlogo/nodejs.png" alt="" /></div>
     </div>
     </section>
     </>

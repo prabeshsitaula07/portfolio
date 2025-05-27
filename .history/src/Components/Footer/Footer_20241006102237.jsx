@@ -18,7 +18,7 @@ export default function Footer() {
                         <h4>Balaju, Kathmandu</h4>
                     </div>
                     <div className="copy">
-                        <h4 align="center">2025 all rights reserved &copy; |PRABESH SITAULA|</h4>
+                        <h4 align="center">2024 all rights reserved &copy; |PRABESH SITAULA|</h4>
                     </div>
                 </div>
             </footer>

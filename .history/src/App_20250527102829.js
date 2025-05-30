@@ -1,0 +1,25 @@
+import Navbar from "./Components/Navbar/Navbar";
+import Header from "./Components/Header/Header";
+import About from "./Components/About/About";
+import Project from "./Components/Project/Project";
+import Footer from "./Components/Footer/Footer";
+import Techstack from "./Components/Techstack/Techstack";
+import { ContactUs } from "./Components/Contact/ContactMe";
+import CodeActivity from "./Components/CodingActivity/CodeActivity";
+
+function App() {
+  return (
+    <>
+      <Navbar/>
+      <Header/>
+      <About/>
+      <CodeActivity/>
+      <Techstack/>
+      <Project/> 
+      <ContactUs/>
+      <Footer/>
+    </>
+  );
+}
+
+export default App;
